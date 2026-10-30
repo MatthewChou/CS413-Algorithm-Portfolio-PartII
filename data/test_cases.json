@@ -1,0 +1,27 @@
+{
+  "closest": [
+    {"name":"A1", "locations":[["A",0,0],["B",3,4]], "expected_squared_distance":25, "expected_pair":["A","B"]},
+    {"name":"A2", "locations":[["A",0,0],["B",7,2],["C",4,5],["D",5,5],["E",12,2],["F",2,9]], "expected_squared_distance":1, "expected_pair":["C","D"]},
+    {"name":"A3", "locations":[["A",-3,1],["B",-3,11],["C",1,1],["D",2,15]], "expected_squared_distance":16, "expected_pair":["A","C"]},
+    {"name":"A4", "locations":[["A",-5,-5],["B",-5,-2],["C",6,8]], "expected_squared_distance":9, "expected_pair":["A","B"]},
+    {"name":"A5_ties", "locations":[["A",0,0],["B",0,2],["C",2,0],["D",2,2]], "expected_squared_distance":4},
+    {"name":"A6_same_x_cross_halves", "locations":[["A",0,0],["B",0,10],["C",0,20],["D",0,21],["E",0,31],["F",0,41]], "expected_squared_distance":1, "expected_pair":["C","D"]}
+  ],
+  "inversions": [
+    {"name":"B1", "planned":["A","B","C","D","E"], "actual":["A","C","D","B","E"], "expected_inversions":2},
+    {"name":"B2", "planned":["A","B","C","D"], "actual":["A","B","C","D"], "expected_inversions":0},
+    {"name":"B3", "planned":["A","B","C","D"], "actual":["D","C","B","A"], "expected_inversions":6},
+    {"name":"B4", "planned":["A"], "actual":["A"], "expected_inversions":0},
+    {"name":"B5_mixed", "planned":["A","B","C","D"], "actual":["D","A","C","B"], "expected_inversions":4}
+  ],
+  "select": [
+    {"name":"C1", "times":[18,4,29,11,4,16,35,9,22], "k":5, "expected_value":16},
+    {"name":"C2", "times":[18,4,29,11,4,16,35,9,22], "k":2, "expected_value":4},
+    {"name":"C3", "times":[18,4,29,11,4,16,35,9,22], "k":9, "expected_value":35},
+    {"name":"C4", "times":[7,7,7,7,7,7], "k":4, "expected_value":7},
+    {"name":"C5", "times":[8,3], "k":1, "expected_value":3},
+    {"name":"C6_sorted", "times":[1,2,3,4,5,6,7,8,9,10,11,12,13], "k":7, "expected_value":7},
+    {"name":"C7_reverse", "times":[13,12,11,10,9,8,7,6,5,4,3,2,1], "k":7, "expected_value":7},
+    {"name":"C8_many_duplicates", "times":[0,0,3,0,3,9,3,9,0,3,3,9,0,3,9,3], "k":10, "expected_value":3}
+  ]
+}

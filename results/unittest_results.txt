@@ -1,0 +1,16 @@
+test_invalid (test_algorithms.TaskATests.test_invalid) ... ok
+test_random_oracle (test_algorithms.TaskATests.test_random_oracle) ... ok
+test_required_and_extra_cases (test_algorithms.TaskATests.test_required_and_extra_cases) ... ok
+test_invalid (test_algorithms.TaskBTests.test_invalid) ... ok
+test_large_count (test_algorithms.TaskBTests.test_large_count) ... ok
+test_random_oracle (test_algorithms.TaskBTests.test_random_oracle) ... ok
+test_required_and_extra_cases (test_algorithms.TaskBTests.test_required_and_extra_cases) ... ok
+test_invalid (test_algorithms.TaskCTests.test_invalid) ... ok
+test_many_duplicate_values_large (test_algorithms.TaskCTests.test_many_duplicate_values_large) ... ok
+test_random_oracle (test_algorithms.TaskCTests.test_random_oracle) ... ok
+test_required_and_extra_cases (test_algorithms.TaskCTests.test_required_and_extra_cases) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.779s
+
+OK

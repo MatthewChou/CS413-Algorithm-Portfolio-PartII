@@ -1,0 +1,21 @@
+Pioneer Delivery - Part II: verified sample outputs
+
+closest | A1 | input=data/A1.json | output={"ids": ["A", "B"], "distance_squared": 25}
+closest | A2 | input=data/A2.json | output={"ids": ["C", "D"], "distance_squared": 1}
+closest | A3 | input=data/A3.json | output={"ids": ["A", "C"], "distance_squared": 16}
+closest | A4 | input=data/A4.json | output={"ids": ["A", "B"], "distance_squared": 9}
+closest | A5_ties | input=data/A5_ties.json | output={"ids": ["A", "B"], "distance_squared": 4}
+closest | A6_same_x_cross_halves | input=data/A6_same_x_cross_halves.json | output={"ids": ["C", "D"], "distance_squared": 1}
+inversions | B1 | input=data/B1.json | output={"inversions": 2}
+inversions | B2 | input=data/B2.json | output={"inversions": 0}
+inversions | B3 | input=data/B3.json | output={"inversions": 6}
+inversions | B4 | input=data/B4.json | output={"inversions": 0}
+inversions | B5_mixed | input=data/B5_mixed.json | output={"inversions": 4}
+select | C1 | input=data/C1.json | output={"kth_smallest": 16}
+select | C2 | input=data/C2.json | output={"kth_smallest": 4}
+select | C3 | input=data/C3.json | output={"kth_smallest": 35}
+select | C4 | input=data/C4.json | output={"kth_smallest": 7}
+select | C5 | input=data/C5.json | output={"kth_smallest": 3}
+select | C6_sorted | input=data/C6_sorted.json | output={"kth_smallest": 7}
+select | C7_reverse | input=data/C7_reverse.json | output={"kth_smallest": 7}
+select | C8_many_duplicates | input=data/C8_many_duplicates.json | output={"kth_smallest": 3}

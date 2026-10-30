@@ -1,0 +1,6 @@
+Python: 3.13.5
+Platform: Linux-6.18.55-x86_64-with-glibc2.41
+CPU: not reported by platform
+Timing: time.perf_counter_ns; median of repetitions after one warm-up
+Inputs: reproducible random seed 413, created outside timing
+Note: measurements reflect the runtime environment, not a guaranteed benchmark.

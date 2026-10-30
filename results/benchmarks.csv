@@ -1,0 +1,10 @@
+task,n,median_ms,repeats
+Task A: Closest pair,100,0.3269,7
+Task B: Inversion count,100,0.1106,7
+Task C: Median of medians,100,0.0152,7
+Task A: Closest pair,1000,5.2223,7
+Task B: Inversion count,1000,2.1130,7
+Task C: Median of medians,1000,0.3627,7
+Task A: Closest pair,5000,35.5206,7
+Task B: Inversion count,5000,16.3811,7
+Task C: Median of medians,5000,3.0413,7
